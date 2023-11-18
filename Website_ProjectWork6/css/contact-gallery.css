@@ -1,0 +1,32 @@
+.gallery-title, .contact-title {
+    text-align: center;
+}
+
+.gallery-img-size img {
+    width: 200px;
+    height: 200px;
+}
+
+.child-right-item-center {
+    align-items: center;
+    margin: auto;
+
+}
+
+.gallery-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-img {
+    border-radius: 50%;
+}
+
+.contact-email-link a:link {
+    color: black;
+}
+
+.contact-email-hover a:hover {
+    background-color: rgb(103, 156, 217);
+    color: white;
+}

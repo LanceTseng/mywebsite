@@ -1,0 +1,14 @@
+.content-container {
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content-child-left{
+    background-color: darkcyan;
+}
+.content-child-right{
+    width: 100%;
+    height: auto;
+}
