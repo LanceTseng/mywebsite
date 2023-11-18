@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "main -d Website_ProjectWork6"
   },
   "keywords": [],
   "author": "",
