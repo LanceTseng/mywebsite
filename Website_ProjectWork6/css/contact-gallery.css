@@ -1,4 +1,32 @@
-.gallery-title, .contact-title {
+/* gallery */
+@keyframes bg-slide {
+    0% {
+        background-image: url("../img/t1.jpg");
+    }
+    25%{
+        background-image: url("../img/t2.jpg");
+    }
+    50% {
+        background-image: url("../img/t3.jpg");
+    }
+    100% {
+        background-image: url("../img/t4.jpg");
+    }
+  }
+.gallery-content {
+    background-image: url("../img/t1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-content-animate{
+    animation-name: bg-slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.gallery-title,
+.contact-title {
     text-align: center;
 }
 
@@ -18,6 +46,7 @@
     margin-right: auto;
 }
 
+/* contact */
 .contact-img {
     border-radius: 50%;
 }
