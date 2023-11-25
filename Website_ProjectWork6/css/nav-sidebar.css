@@ -1,55 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
 
- .tnav {
-    background-color: rgb(209, 133, 133);
-    overflow: hidden;
-    font-family: Arial Narrow;
-  }
+/* upper nav */
+#nav {
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+  font-size: larger;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding-right: 80px;
+  padding-left: 10px;
+  box-shadow: 5px 3px 20px lightgoldenrodyellow;
+}
+
+#nav a:hover {
+  padding-left: 20px;
+  font-size: 20px;
+  background-color: darkcyan;
 
 
-  .tnav a {
-    float: left;
-    color: antiquewhite;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 25px;
-    text-decoration: none;
-  }
+}
 
+/* sidebar */
+.aside-nav {
+  background-color: darkcyan;
+  height: 100%;
+}
 
-  .tnav a:hover {
-    background-color: wheat;
-    color: black;
-  }
+.aside-nav ul {
+  margin: 0;
+  padding: 15px;
+  width: 250px;
+  background-color: darkcyan;
+  font-family: Arial Narrow;
+}
 
+.aside-nav a {
+  display: block;
+  color: antiquewhite;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 22px;
+}
 
-  .tnav a.active {
-    background-color: yellowgreen;
-    color: white;
-    text-decoration: underline;
-  }
-
-  .aside-nav{
-    background-color: darkcyan;
-    height: 100%;
-  }
-
- .aside-nav ul {
-    margin: 0;
-    padding: 15px;
-    width: 250px;
-    background-color: darkcyan;
-    font-family: Arial Narrow;
-  }
-
-  .aside-nav a {
-    display: block;
-    color: antiquewhite;
-    padding: 15px 20px;
-    text-decoration: none;
-    font-size: 22px;
-  }
-
-  .aside-nav a:hover {
-    background-color: wheat;
-    color: black;
-  }
+.aside-nav a:hover {
+  background-color: wheat;
+  color: black;
+}

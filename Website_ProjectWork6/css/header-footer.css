@@ -1,14 +1,71 @@
-.header-style {
+@font-face {
+    font-family: myFont;
+    src: url(../font/Agina.otf);
+}
+
+/* header */
+#head {
     background-image: url(../img/SandsPark.jpg);
     width: 100%;
     height: 400px;
     background-size:cover;
-    text-align: Center;
-    padding: 0;
-    margin: 0;
+    text-align: center;
+   
+   overflow: hidden;
+   
+   color:aquamarine;
 }
 
-footer {
+#title{
+    font-style: normal;
+    font-size: 50px;
+    
+    font-family: myFont;
+}
+
+#title:hover{
+    color:bisque;
+    text-shadow: 6px 30px 50px greenyellow;
+}
+
+/* footer */
+footer{
+        
+    background-color: antiquewhite;
+    margin-bottom: -0.5%;
+   
+
+ }
+ .group a{
+    display: block;
+    flex-direction: row; 
     font-size: small;
-    text-align: center;
+    margin-left: 20px;
+    text-decoration: none;
+    color:darkolivegreen;
+}
+.group a:hover{
+    color: yellowgreen;
+    border-radius: 10%;
+    border-style: groove;
+
+}
+/* This css style is to diplay group name in row */
+#groupname{
+    display: flex;
+    flex-direction: row; 
+ }
+ /* This css style is for link */
+ #nct{
+    font-size: small;
+    padding-top:25px;
+    /* margin-left: 49% */
+    text-decoration: none;
+    color: RED;
+    
+    
+}
+footer a{
+    text-decoration: none;
+    color: RED;
 }
