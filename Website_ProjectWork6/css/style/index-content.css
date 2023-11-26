@@ -1,0 +1,57 @@
+.background-color{
+    background-color:thistle;
+}
+
+/* intro */
+.subtitle {
+    color: cadetblue;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 2rem;
+}
+
+.content {
+    color: cadetblue;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    font-size: 20px;
+}
+
+/* img */
+.childImage {
+    width: 100%;
+    height: 100%;
+}
+
+ 
+.img-default {
+    /* -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out; */
+    border-radius: 10%;
+    display: block;
+	margin:auto;    
+}
+
+.event:hover {
+    /* -webkit-transform: scale(1);
+    transform: scale(1); */
+    border-radius: 5%;
+}
+
+/* schedule */
+.childSchedule {
+    width: 100%;
+    height: 100%;
+    background: rgb(134, 220, 216);
+    border-style: groove;
+    padding: 2%;
+    margin-right: 50px;
+    padding-left: 20px;
+    color: #000;
+    font-size: 1rem;
+}

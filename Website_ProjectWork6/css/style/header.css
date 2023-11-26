@@ -1,0 +1,22 @@
+@font-face {
+    font-family: myFont;
+    src: url(../../font/Agina.otf);
+}
+
+.header{
+    background-image: url(../../img/SandsPark.jpg);
+    background-size:cover;
+    place-content: start center;
+    font-family: "myFont";
+    font-style: normal;
+    font-size: 1.5rem;
+    overflow: hidden;
+    text-wrap: nowrap;
+    color:aquamarine;
+    padding-top: 2rem;
+}
+
+.header :hover{
+    color:bisque;
+    text-shadow: 6px 30px 50px greenyellow; 
+}

@@ -1,0 +1,36 @@
+.aside-nav {
+    background-color: darkcyan;
+    height: 100%;
+    width: 100%;
+    place-content: start left;
+}
+
+.aside-nav a {
+    display: block;
+    color: antiquewhite;
+    padding: 1rem 0 0 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Arial Narrow';
+
+}
+
+.aside-nav a:hover {
+
+    background-color: wheat;
+    color: black;
+    rotate: -5deg;
+    text-align: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }

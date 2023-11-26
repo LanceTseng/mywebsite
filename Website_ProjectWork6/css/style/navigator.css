@@ -1,0 +1,22 @@
+.nav {
+    display: block;
+    flex-direction: row;
+    background-color: lightblue;
+    font-size: larger;
+    width: inherit;
+    place-content: start;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    padding-right: 80px;
+    padding-left: 10px;
+    box-shadow: 5px 3px 20px lightgoldenrodyellow;
+  }
+  
+  .nav a:hover {
+    padding-left: 20px;
+    font-size: 20px;
+    background-color: darkcyan;
+  }

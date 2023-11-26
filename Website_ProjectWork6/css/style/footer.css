@@ -1,0 +1,40 @@
+.footer {
+    background-color: antiquewhite;
+    margin-bottom: -0.5%;
+}
+
+.groupname {
+    display: flex;
+    flex-direction: row;
+}
+
+.groupname a {
+    display: block;
+    flex-direction: row;
+    font-size: small;
+    margin-left: 20px;
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.groupname a:hover {
+    color: yellowgreen;
+    border-radius: 10%;
+    border-style: groove;
+}
+
+
+
+.nct {
+    font-size: small;
+    padding-top: 25px;
+    text-decoration: none;
+    color: RED;
+
+
+}
+
+.nct a {
+    text-decoration: none;
+    color: RED;
+}
