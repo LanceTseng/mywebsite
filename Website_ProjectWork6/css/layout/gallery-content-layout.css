@@ -1,7 +1,4 @@
- .bg-color{
-    background-color: thistle;
- }
- 
+
  .container {
     grid-area: mn;
     min-height: 400px;
