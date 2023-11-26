@@ -1,3 +1,8 @@
+.bg-color{
+    background-color: thistle;
+ }
+ 
+
 .container {
     grid-area: mn;
     min-height: 400px;
@@ -9,14 +14,10 @@
 }
 
 .box {
-    background-color: #000;
-    color: #fff;
     font-size: 2rem;
-    padding: 0.5rem;
 }
 
 .box:first-child {
-    background-color: #00f;
     grid-column: 1 / 5;
     grid-row: 1 / 2;
 
@@ -25,25 +26,25 @@
 }
 
 .box:nth-child(2) {
-    background-color: purple;
     grid-column: 1 / 2;
     grid-row: 2 / 4;
+    place-content: center;
 }
 
 .box:nth-child(3) {
-    background-color: purple;
     grid-column: 2 / 3;
     grid-row: 2 / 4;
+    place-content: center;
 }
 
 .box:nth-child(4) {
-    background-color: purple;
     grid-column: 3 / 4;
     grid-row: 2 / 4;
+    place-content: center;
 }
 
 .box:last-child {
-    background-color: purple;
     grid-column: 4 / 5;
     grid-row: 2 / 4;
+    place-content: center;
 }

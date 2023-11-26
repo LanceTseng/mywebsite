@@ -1,0 +1,35 @@
+.bg-color{
+    background-color: thistle;
+ }
+ 
+
+.subtitle {
+    color: cadetblue;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 2rem;
+}
+
+/* contact */
+.child {
+    text-align: center;
+    width: inherit;
+    height: inherit;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+
+.contact-img {
+    border-radius: 50%;
+}
+
+.contact-email-link a:link {
+    color: black;
+}
+
+.contact-email-hover a:hover {
+    background-color: rgb(103, 156, 217);
+    color: white;
+}
