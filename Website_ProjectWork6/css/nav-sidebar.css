@@ -12,23 +12,26 @@
 nav a {
   color: white;
   text-decoration: none;
-  padding-right: 80px;
-  padding-left: 10px;
+  padding-right: 70px;
+  padding-left: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
   box-shadow: 5px 3px 20px lightgoldenrodyellow;
 }
 
 #nav a:hover {
-  padding-left: 20px;
-  font-size: 20px;
+  padding-right: 70px;
+  padding-left: 70px;
+  font-size: 25px;
   background-color: darkcyan;
-
-
 }
 
 /* sidebar */
 .aside-nav{
   background-color: darkcyan;
   height: 100%;
+  
 }
 
 .aside-nav ul {
